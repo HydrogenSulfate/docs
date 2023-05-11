@@ -25,7 +25,7 @@ Hessian
 参数
 :::::::::
 
-- **ys** (Tensor|Tuple[Tensor, ...]) - 因变量 ``ys`` ，数据类型为单个 Tensor。
+- **ys** (Tensor) - 因变量 ``ys`` ，数据类型为单个 Tensor。
 - **xs** (Tensor|Tuple[Tensor, ...]) - 自变量 ``xs`` ，数据类型为 Tensor 或 Tensor 元组。
 - **batch_axis** (int, optional) - ``0`` 表示参数包含 batch 维度，且第 0 维为 batch 维，
   ``None`` 表示参数不包含 batch。默认值为 ``None`` 。
